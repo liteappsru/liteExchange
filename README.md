@@ -48,5 +48,3 @@ Rabbit MQ - для высоконагруженных систем. Требоу
 https://t.me/liteExchange_channel
 
 Преимущества
-
-Кейсы

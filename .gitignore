@@ -9,6 +9,7 @@
 *.lgp
 *.epf
 *.erf
+*.bin
 
 !*ext/*.xml
 1Cv8Log/*

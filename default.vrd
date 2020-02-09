@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<point xmlns="http://v8.1c.ru/8.2/virtual-resource-system"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		base="/liteExchange"
+		ib="File=&quot;D:\liteApps\liteExchange&quot;;"
+		enable="false">
+	<debug enable="true"
+			protocol="tcp"
+			url="tcp://localhost"/>
+	<ws enable="false"
+			pointEnableCommon="false"/>
+	<httpServices publishExtensionsByDefault="true"/>
+	<standardOdata enable="false"
+			reuseSessions="autouse"
+			sessionMaxAge="20"
+			poolSize="10"
+			poolTimeout="5"/>
+</point>

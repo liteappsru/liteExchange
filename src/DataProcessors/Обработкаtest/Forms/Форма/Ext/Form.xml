@@ -1,0 +1,1036 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<Page name="Основное" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="11"/>
+					<ChildItems>
+						<UsualGroup name="КнопкиОсновное" id="12">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Кнопки основное</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Кнопки основное</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="КнопкиОсновноеРасширеннаяПодсказка" id="13"/>
+							<ChildItems>
+								<Button name="ФормаВыгрузить" id="1">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.Выгрузить</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.леВыгрузить</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ФормаВыгрузитьРасширеннаяПодсказка" id="2"/>
+								</Button>
+								<Button name="ФормаЗагрузить" id="3">
+									<Type>UsualButton</Type>
+									<Visible>false</Visible>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.Загрузить</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.леЗагрузить</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ФормаЗагрузитьРасширеннаяПодсказка" id="4"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="СсылкаНаОбъект" id="5">
+							<DataPath>Объект.СсылкаНаОбъект</DataPath>
+							<ContextMenu name="СсылкаНаОбъектКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="СсылкаНаОбъектРасширеннаяПодсказка" id="7"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ВыгрузкаСправочников" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка справочников</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка справочников</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ВыгрузкаСправочниковРасширеннаяПодсказка" id="15"/>
+					<ChildItems>
+						<UsualGroup name="Лево" id="64">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Лево</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Лево</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЛевоРасширеннаяПодсказка" id="65"/>
+							<ChildItems>
+								<Button name="Контрагенты" id="16">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Контрагенты</CommandName>
+									<ExtendedTooltip name="КонтрагентыРасширеннаяПодсказка" id="17"/>
+								</Button>
+								<Button name="Валюты" id="22">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Валюты</CommandName>
+									<ExtendedTooltip name="ВалютыРасширеннаяПодсказка" id="23"/>
+								</Button>
+								<Button name="Организации" id="109">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Организации</CommandName>
+									<ExtendedTooltip name="ОрганизацииРасширеннаяПодсказка" id="110"/>
+								</Button>
+								<Button name="ВидыНоменклатуры" id="111">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВидыНоменклатуры</CommandName>
+									<ExtendedTooltip name="ВидыНоменклатурыРасширеннаяПодсказка" id="112"/>
+								</Button>
+								<Button name="БанковскиеСчета" id="58">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.БанковскиеСчета</CommandName>
+									<ExtendedTooltip name="БанковскиеСчетаРасширеннаяПодсказка" id="59"/>
+								</Button>
+								<Button name="ФизическиеЛица" id="28">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ФизическиеЛица</CommandName>
+									<ExtendedTooltip name="ФизическиеЛицаРасширеннаяПодсказка" id="29"/>
+								</Button>
+								<Button name="Склады" id="52">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Склады</CommandName>
+									<ExtendedTooltip name="СкладыРасширеннаяПодсказка" id="53"/>
+								</Button>
+								<Button name="СтатьиЗатрат" id="42">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СтатьиЗатрат</CommandName>
+									<ExtendedTooltip name="СтатьиЗатратРасширеннаяПодсказка" id="43"/>
+								</Button>
+								<Button name="Билеты" id="54">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Билеты</CommandName>
+									<ExtendedTooltip name="БилетыРасширеннаяПодсказка" id="55"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Центр" id="66">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Центр</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Центр</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЦентрРасширеннаяПодсказка" id="67"/>
+							<ChildItems>
+								<Button name="ЕденицыИзмерения" id="34">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ЕденицыИзмерения</CommandName>
+									<ExtendedTooltip name="ЕденицыИзмеренияРасширеннаяПодсказка" id="35"/>
+								</Button>
+								<Button name="ОбъектыСтроительства" id="40">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОбъектыСтроительства</CommandName>
+									<ExtendedTooltip name="ОбъектыСтроительстваРасширеннаяПодсказка" id="41"/>
+								</Button>
+								<Button name="СтатьиДДС" id="107">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СтатьиДДС</CommandName>
+									<ExtendedTooltip name="СтатьиДДСРасширеннаяПодсказка" id="108"/>
+								</Button>
+								<Button name="СтраныМира" id="38">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СтраныМира</CommandName>
+									<ExtendedTooltip name="СтраныМираРасширеннаяПодсказка" id="39"/>
+								</Button>
+								<Button name="НомераГТД" id="36">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.НомераГТД</CommandName>
+									<ExtendedTooltip name="НомераГТДРасширеннаяПодсказка" id="37"/>
+								</Button>
+								<Button name="ТранспортныеСредства" id="46">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ТранспортныеСредства</CommandName>
+									<ExtendedTooltip name="ТранспортныеСредстваРасширеннаяПодсказка" id="47"/>
+								</Button>
+								<Button name="ТиповыеОперации" id="62">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ТиповыеОперации</CommandName>
+									<ExtendedTooltip name="ТиповыеОперацииРасширеннаяПодсказка" id="63"/>
+								</Button>
+								<Button name="ВыгрузитьНоменклатуру" id="18">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Номенклатура</CommandName>
+									<ExtendedTooltip name="ВыгрузитьНоменклатуруРасширеннаяПодсказка" id="19"/>
+								</Button>
+								<Button name="ВидыВзаиморасчетов" id="50">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВидыВзаиморасчетов</CommandName>
+									<ExtendedTooltip name="ВидыВзаиморасчетовРасширеннаяПодсказка" id="51"/>
+								</Button>
+								<Button name="ШтрихКодыУпаковокТоваров" id="44">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ШтрихКодыУпаковокТоваров</CommandName>
+									<ExtendedTooltip name="ШтрихКодыУпаковокТоваровРасширеннаяПодсказка" id="45"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Право" id="68">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Право</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Право</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПравоРасширеннаяПодсказка" id="69"/>
+							<ChildItems>
+								<Button name="Пользователи" id="24">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Пользователи</CommandName>
+									<ExtendedTooltip name="ПользователиРасширеннаяПодсказка" id="25"/>
+								</Button>
+								<Button name="ДоговорыКонтрагентов" id="20">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДоговорыКонтрагентов</CommandName>
+									<ExtendedTooltip name="ДоговорыКонтрагентовРасширеннаяПодсказка" id="21"/>
+								</Button>
+								<Button name="ТипыЦен" id="26">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ТипыЦен</CommandName>
+									<ExtendedTooltip name="ТипыЦенРасширеннаяПодсказка" id="27"/>
+								</Button>
+								<Button name="РегистрацияВНалоговыхОрганах" id="60">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.РегистрацияВНалоговыхОрганах</CommandName>
+									<ExtendedTooltip name="РегистрацияВНалоговыхОрганахРасширеннаяПодсказка" id="61"/>
+								</Button>
+								<Button name="ПодразделенияОрганизации" id="30">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПодразделенияОрганизации</CommandName>
+									<ExtendedTooltip name="ПодразделенияОрганизацииРасширеннаяПодсказка" id="31"/>
+								</Button>
+								<Button name="СпособыОтраженияРасходовПоАмортизации" id="32">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СпособыОтраженияРасходовПоАмортизации</CommandName>
+									<ExtendedTooltip name="СпособыОтраженияРасходовПоАмортизацииРасширеннаяПодсказка" id="33"/>
+								</Button>
+								<Button name="Банки" id="70">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Банки</CommandName>
+									<ExtendedTooltip name="БанкиРасширеннаяПодсказка" id="71"/>
+								</Button>
+								<Button name="ВидыНалоговИПлатежейВБюлжет" id="56">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВидыНалоговИПлатежейВБюлжет</CommandName>
+									<ExtendedTooltip name="ВидыНалоговИПлатежейВБюлжетРасширеннаяПодсказка" id="57"/>
+								</Button>
+								<Button name="Патенты" id="48">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Патенты</CommandName>
+									<ExtendedTooltip name="ПатентыРасширеннаяПодсказка" id="49"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ВыгрузкаДокументовЗаПериод" id="72">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка документов за период</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка документов за период</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВыгрузкаДокументовЗаПериодРасширеннаяПодсказка" id="73"/>
+					<ChildItems>
+						<UsualGroup name="ВыборПериодаВыгрузкиДокументов" id="80">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбор периода выгрузки документов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбор периода выгрузки документов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ВыборПериодаВыгрузкиДокументовРасширеннаяПодсказка" id="81"/>
+							<ChildItems>
+								<InputField name="НачалоПериода" id="74">
+									<DataPath>Объект.НачалоПериода</DataPath>
+									<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="76"/>
+									<Events>
+										<Event name="OnChange">НачалоПериодаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="КонецПериода" id="77">
+									<DataPath>Объект.КонецПериода</DataPath>
+									<ContextMenu name="КонецПериодаКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="79"/>
+									<Events>
+										<Event name="OnChange">КонецПериодаПриИзменении</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ВыборДокументовДляВыгрузки" id="85">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбор документов для выгрузки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбор документов для выгрузки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ВыборДокументовДляВыгрузкиРасширеннаяПодсказка" id="86"/>
+							<ChildItems>
+								<UsualGroup name="ЛевоДок" id="97">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Лево док</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Лево док</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ЛевоДокРасширеннаяПодсказка" id="98"/>
+									<ChildItems>
+										<Button name="СписаниеСРС" id="93">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.СписаниеСРС</CommandName>
+											<ExtendedTooltip name="СписаниеСРСРасширеннаяПодсказка" id="94"/>
+										</Button>
+										<Button name="ПоступлениеНаРС" id="95">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ПоступлениеНаРС</CommandName>
+											<ExtendedTooltip name="ПоступлениеНаРСРасширеннаяПодсказка" id="96"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ЦентрДок" id="99">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Центр док</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Центр док</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ЦентрДокРасширеннаяПодсказка" id="100"/>
+									<ChildItems>
+										<Button name="ПоступленияАктыНакладные" id="87">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ПоступленияТоваровУслуг</CommandName>
+											<ExtendedTooltip name="ПоступленияАктыНакладныеРасширеннаяПодсказка" id="88"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ПравоДок" id="101">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Право док</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Право док</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ПравоДокРасширеннаяПодсказка" id="102"/>
+									<ChildItems>
+										<Button name="АвансовыйОтчет" id="91">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.АвансовыйОтчет</CommandName>
+											<ExtendedTooltip name="АвансовыйОтчетРасширеннаяПодсказка" id="92"/>
+										</Button>
+										<Button name="ОказаниеУслуг" id="89">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ОказаниеУслуг</CommandName>
+											<ExtendedTooltip name="ОказаниеУслугРасширеннаяПодсказка" id="90"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ДополнительныеФункции" id="103">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные функции</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные функции</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДополнительныеФункцииРасширеннаяПодсказка" id="104"/>
+					<ChildItems>
+						<Button name="ПрефиксацияСправочников" id="105">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПрефиксацияСправочников</CommandName>
+							<ExtendedTooltip name="ПрефиксацияСправочниковРасширеннаяПодсказка" id="106"/>
+						</Button>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Обработкаtest</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>1/0:3750afb0-aa32-4de3-9b02-068a8e56530a</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Выгрузить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Выгрузить</Action>
+		</Command>
+		<Command name="Загрузить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Загрузить</Action>
+		</Command>
+		<Command name="Контрагенты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагенты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагенты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Контрагенты</Action>
+		</Command>
+		<Command name="Номенклатура" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Номенклатура</Action>
+		</Command>
+		<Command name="ДоговорыКонтрагентов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договоры контрагентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договоры контрагентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДоговорыКонтрагентов</Action>
+		</Command>
+		<Command name="Валюты" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Валюты</Action>
+		</Command>
+		<Command name="Пользователи" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Пользователи</Action>
+		</Command>
+		<Command name="ТипыЦен" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы цен</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы цен</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТипыЦен</Action>
+		</Command>
+		<Command name="ФизическиеЛица" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физические лица</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физические лица</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ФизическиеЛица</Action>
+		</Command>
+		<Command name="ПодразделенияОрганизации" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделения организации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделения организации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодразделенияОрганизации</Action>
+		</Command>
+		<Command name="СпособыОтраженияРасходовПоАмортизации" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способы отражения расходов по амортизации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способы отражения расходов по амортизации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СпособыОтраженияРасходовПоАмортизации</Action>
+		</Command>
+		<Command name="ЕденицыИзмерения" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Еденицы измерения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Еденицы измерения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЕденицыИзмерения</Action>
+		</Command>
+		<Command name="НомераГТД" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номера ГТД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номера ГТД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НомераГТД</Action>
+		</Command>
+		<Command name="СтраныМира" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страны мира</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страны мира</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтраныМира</Action>
+		</Command>
+		<Command name="ОбъектыСтроительства" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объекты строительства</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объекты строительства</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбъектыСтроительства</Action>
+		</Command>
+		<Command name="СтатьиЗатрат" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статьи затрат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статьи затрат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтатьиЗатрат</Action>
+		</Command>
+		<Command name="ШтрихКодыУпаковокТоваров" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Штрих-коды упаковок товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Штрих коды упаковок товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ШтрихКодыУпаковокТоваров</Action>
+		</Command>
+		<Command name="ТранспортныеСредства" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Транспортные средства</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Транспортные средства</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТранспортныеСредства</Action>
+		</Command>
+		<Command name="Патенты" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Патенты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Патенты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Патенты</Action>
+		</Command>
+		<Command name="ВидыВзаиморасчетов" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды взаиморасчетов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды взаиморасчетов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВидыВзаиморасчетов</Action>
+		</Command>
+		<Command name="Склады" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склады</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склады</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Склады</Action>
+		</Command>
+		<Command name="Билеты" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Билеты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Билеты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Билеты</Action>
+		</Command>
+		<Command name="ВидыНалоговИПлатежейВБюлжет" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды налогов и платежей в бюлжет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды налогов и платежей в бюлжет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВидыНалоговИПлатежейВБюлжет</Action>
+		</Command>
+		<Command name="БанковскиеСчета" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банковские счета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банковские счета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>БанковскиеСчета</Action>
+		</Command>
+		<Command name="РегистрацияВНалоговыхОрганах" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация в налоговых органах</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация в налоговых органах</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РегистрацияВНалоговыхОрганах</Action>
+		</Command>
+		<Command name="ТиповыеОперации" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типовые операции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типовые операции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТиповыеОперации</Action>
+		</Command>
+		<Command name="Банки" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Банки</Action>
+		</Command>
+		<Command name="ПоступленияТоваровУслуг" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступления товаров и услуг</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступления товаров услуг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоступленияАктыНакладные</Action>
+		</Command>
+		<Command name="ОказаниеУслуг" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оказание услуг</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оказание услуг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОказаниеУслуг</Action>
+		</Command>
+		<Command name="АвансовыйОтчет" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Авансовый отчет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Авансовый отчет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АвансовыйОтчет</Action>
+		</Command>
+		<Command name="СписаниеСРС" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Списание с РС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Списание СРС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СписаниеСРС</Action>
+		</Command>
+		<Command name="ПоступлениеНаРС" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступление на РС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступление на РС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоступлениеНаРС</Action>
+		</Command>
+		<Command name="ПрефиксацияСправочников" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Префиксация справочников</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Префиксация справочников</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПрефиксацияСправочников</Action>
+		</Command>
+		<Command name="СтатьиДДС" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статьи ДДС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статьи ДДС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтатьиДДС</Action>
+		</Command>
+		<Command name="Организации" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Организации</Action>
+		</Command>
+		<Command name="ВидыНоменклатуры" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВидыНоменклатуры</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9">
+	<ConfigVersions>
+		<Metadata name="Catalog.леПодключаемыеОбработки" id="f90e8bb5-f651-46a4-8afb-69bfcecbd9d7" configVersion="63529d03881380ec51ca9cca3988d90e1aed0264">
+			<Metadata name="Catalog.леПодключаемыеОбработки.Attribute.Хранилище" id="cdb23df1-e58d-4402-a7a9-814426fc1baf"/>
+		</Metadata>
+		<Metadata name="Catalog.леПодключаемыеОбработки.ObjectModule" id="f90e8bb5-f651-46a4-8afb-69bfcecbd9d7.0" configVersion="dee31e6f313043fe59b2c5ca09ec101e6ddca3d2"/>
+		<Metadata name="CommonModule.леКоннекторHTTP" id="4ba39cde-687a-463d-b87b-9c599deca8d8" configVersion="1a4863a4d09a0d3f2f2c3365ab109eee6a6fcb41"/>
+		<Metadata name="CommonModule.леКоннекторHTTP.Module" id="4ba39cde-687a-463d-b87b-9c599deca8d8.0" configVersion="4fcc4b9f3025282724b7adac1d7b61bb37935d96"/>
+		<Metadata name="CommonModule.леЛоггирование" id="35da325e-5c91-4759-8383-e58e052f69ef" configVersion="3fc7432a4ff9ac70bfc25e2b6eb7c18799d109e3"/>
+		<Metadata name="CommonModule.леЛоггирование.Module" id="35da325e-5c91-4759-8383-e58e052f69ef.0" configVersion="21681110835e97d2209e9645ea1763d4c03ff4dc"/>
+		<Metadata name="CommonModule.леПодключаемыеОбработчики" id="c6aadd71-c72d-4acc-86fe-92d69f28be1a" configVersion="8b765e00563532c58fc2c464ebee02708a625123"/>
+		<Metadata name="CommonModule.леПодключаемыеОбработчики.Module" id="c6aadd71-c72d-4acc-86fe-92d69f28be1a.0" configVersion="ee08bc075e276ab826d666c9b1097911d3a3e203"/>
+		<Metadata name="CommonModule.леРаботаСJSON" id="a85b4f7c-d208-4515-a548-f6724d17bd31" configVersion="a9667fc9b97b1d0387a5630afe693219de54ebe2"/>
+		<Metadata name="CommonModule.леРаботаСJSON.Module" id="a85b4f7c-d208-4515-a548-f6724d17bd31.0" configVersion="3b47b07e76727d11ee72ca139e02ff755119325d"/>
+		<Metadata name="CommonModule.леСерверПовтИсп" id="b00f01ca-df0a-4a82-9ada-1d962da5de3b" configVersion="4b1e5bdc5f74640e05a2e58643fd7c941a9bf0ea"/>
+		<Metadata name="CommonModule.леСерверПовтИсп.Module" id="b00f01ca-df0a-4a82-9ada-1d962da5de3b.0" configVersion="31b3b052b74062289d6d5139f9b2b0f37d5c702b"/>
+		<Metadata name="CommonPicture.леВыгрузить" id="e0a8fbe8-d9c2-46ae-a4ca-bfb0bd14e8dd" configVersion="77f94279ea25006e562546a781c29c509bc58320"/>
+		<Metadata name="CommonPicture.леВыгрузить.Picture" id="e0a8fbe8-d9c2-46ae-a4ca-bfb0bd14e8dd.0" configVersion="6c57865b7c275cf4ee2f5074899a01c9621d5b90"/>
+		<Metadata name="CommonPicture.леЗагрузить" id="10b9b159-df74-4dc4-a174-39e8b3353223" configVersion="207467f9116eee03b5a5c79212714d30fd37760e"/>
+		<Metadata name="CommonPicture.леЗагрузить.Picture" id="10b9b159-df74-4dc4-a174-39e8b3353223.0" configVersion="59075c89b26e3ae1792b64da0d3dd5e0fe10238b"/>
+		<Metadata name="CommonPicture.леПиктограммаПодсистемы" id="444c5d07-8794-4a87-bd36-4f7902fce254" configVersion="9402f0c5284da517f8f884992884d76691dbc79d"/>
+		<Metadata name="CommonPicture.леПиктограммаПодсистемы.Picture" id="444c5d07-8794-4a87-bd36-4f7902fce254.0" configVersion="867b77b27061035478e38fe7c2227455740601ad"/>
+		<Metadata name="CommonTemplate.леМакетliteExchange2" id="18b23e5a-e87b-4ef9-ad14-aec53612728d" configVersion="2e7fa4b86b4d2b78b4f96918f4eca21d55b0c7f6"/>
+		<Metadata name="CommonTemplate.леМакетliteExchange2.Template" id="18b23e5a-e87b-4ef9-ad14-aec53612728d.0" configVersion="37c85fa5f45b3fbabc7dcad04042d52f711e40e2"/>
+		<Metadata name="Configuration.liteExchange2" id="135b7f3c-dbc9-4a9e-a3f7-3c1120e2aaed" configVersion="6d29648c55440a117599dcfb87ba30a16c73d900"/>
+		<Metadata name="Configuration.liteExchange2.ManagedApplicationModule" id="c1b23587-22a9-481e-81a1-70286fe78539.6" configVersion="498afaafde1eae936c69dff09824b2515b3fb3b6"/>
+		<Metadata name="Configuration.liteExchange2.SessionModule" id="c1b23587-22a9-481e-81a1-70286fe78539.7" configVersion="6d5e4c2aab7bfc9d5b5809d88414c7491ac0288d"/>
+		<Metadata name="DataProcessor.Обработкаtest" id="e44b94b2-3dde-4909-ac35-da3247325dfa" configVersion="5fb45104671c4e545008f179753c1e05a2928236">
+			<Metadata name="DataProcessor.Обработкаtest.Attribute.НачалоПериода" id="4bba98f6-214b-4891-bdea-da7d76c4cff5"/>
+			<Metadata name="DataProcessor.Обработкаtest.Attribute.СсылкаНаОбъект" id="a78b3e5b-bc2e-4482-b318-26c7bfc9e4cb"/>
+			<Metadata name="DataProcessor.Обработкаtest.Attribute.КонецПериода" id="d1ff4ee2-f434-48fd-ab41-85e8027c6d61"/>
+		</Metadata>
+		<Metadata name="DataProcessor.Обработкаtest.Form.Форма" id="723b0bb8-8c8a-4ff4-b6be-4b007b57324f" configVersion="7aa22ea6cc1422160c94afa75836c8a7a3808331"/>
+		<Metadata name="DataProcessor.Обработкаtest.Form.Форма.Form" id="723b0bb8-8c8a-4ff4-b6be-4b007b57324f.0" configVersion="a9acf8e904053548e255d2198d474f8864759f7f"/>
+		<Metadata name="DataProcessor.Обработкаtest.ObjectModule" id="e44b94b2-3dde-4909-ac35-da3247325dfa.0" configVersion="0338f77061a88a2d9c0039208c6a3d78264c3929"/>
+		<Metadata name="DataProcessor.ле1сКонвертер" id="2db3c573-dd9b-4bae-8c0e-823e9289c805" configVersion="415fd2d53cf7b4e42764c1982da337d43b4cdaac"/>
+		<Metadata name="DataProcessor.леGZipОбработка" id="fc263634-7ba6-419f-8c23-282c1e909026" configVersion="4e8ae42200e4deeed9acf9994fcb43c594e07c75"/>
+		<Metadata name="DataProcessor.леGZipОбработка.ObjectModule" id="fc263634-7ba6-419f-8c23-282c1e909026.0" configVersion="cb4d555d74fe0602015e72f2665ac10bbcef8df9"/>
+		<Metadata name="DataProcessor.леHTTPRequest" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d" configVersion="03de148c1be505b12c665ffd38cedff16596a802"/>
+		<Metadata name="DataProcessor.леHTTPRequest.ObjectModule" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d.0" configVersion="8e108fcd60f1d3126ad667bb99d9a9c910bbf117"/>
+		<Metadata name="DataProcessor.леJSONКонвертер" id="3f4efd0d-e731-404f-9b99-079751cd0fb8" configVersion="7bb5865475bebf8b56f54f33717ca45862798708"/>
+		<Metadata name="DataProcessor.леJSONКонвертер.Form.Форма" id="c5b4dac6-7eef-42b6-8cb0-61f8287555e9" configVersion="2eea51f986ccbb84d521d0bfe5c5394fb66e27a9"/>
+		<Metadata name="DataProcessor.леJSONКонвертер.Form.Форма.Form" id="c5b4dac6-7eef-42b6-8cb0-61f8287555e9.0" configVersion="6ce4eba3224cbc1c5b5dd4167addcb5dd12fed72"/>
+		<Metadata name="DataProcessor.леJSONКонвертер.ObjectModule" id="3f4efd0d-e731-404f-9b99-079751cd0fb8.0" configVersion="affe52b438e397ed00fccb5c1b5ccfff8e944bb5"/>
+		<Metadata name="DataProcessor.леLiteExchange2" id="4dafd88c-ada5-464a-b182-debd24238fab" configVersion="96eb37c82b6c23bbc68006686fbae4cb02c76938"/>
+		<Metadata name="DataProcessor.леLiteExchange2.ManagerModule" id="4dafd88c-ada5-464a-b182-debd24238fab.2" configVersion="848cc06bd6bdc263374ec4beb89c948be047ba00"/>
+		<Metadata name="DataProcessor.леLiteExchange2.ObjectModule" id="4dafd88c-ada5-464a-b182-debd24238fab.0" configVersion="be2b6de60731a40d1a6b42f9a31531ac15de2f28"/>
+		<Metadata name="DataProcessor.леАнализаторДанных" id="dfc0c369-d92e-4b18-8a65-c55c01a3817b" configVersion="5f722fb2b008b332f671ac3091994d5a6aecf0a9"/>
+		<Metadata name="DataProcessor.леАнализаторДанных.ObjectModule" id="dfc0c369-d92e-4b18-8a65-c55c01a3817b.0" configVersion="28a175518a3822c84ae5c2007b008499a04d3453"/>
+		<Metadata name="HTTPService.ex" id="ce3f8b2d-9c59-463a-b33c-62b33da1077a" configVersion="aad1906802a523e1cc92e8c59f6b211ae5e8493c">
+			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.patch" id="3732679b-75d6-403f-a5d8-8796deabc207"/>
+			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.post" id="42cdaac0-d22c-4882-81ee-01b66d17eaf8"/>
+			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.options" id="4bf7eb3d-da47-4a65-b436-3270ba934dec"/>
+			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.put" id="5d251976-8f5b-4fc3-8e79-f1f5433f4665"/>
+			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.get" id="99cbcd68-6796-4028-abc6-6592ed1bed2b"/>
+			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.delete" id="9ee2451f-349b-4e06-96a2-006db9ad2961"/>
+			<Metadata name="HTTPService.ex.URLTemplate.Запрос" id="f1d0e2c5-0163-4230-b3e7-6e0eb2e24029"/>
+		</Metadata>
+		<Metadata name="HTTPService.ex.Module" id="ce3f8b2d-9c59-463a-b33c-62b33da1077a.0" configVersion="b5e5e0bdebc2870ff2836ba6a3459e2a40495449"/>
+		<Metadata name="InformationRegister.леНастройкиТранспортаОбменаДанными" id="95749feb-cd27-4746-806b-828c03b41b8f" configVersion="638c6801ea568b33eb794addec4e8c3f8ec3315e">
+			<Metadata name="InformationRegister.леНастройкиТранспортаОбменаДанными.Dimension.УзелОбмена" id="0976d599-1e48-4f57-aa1b-b9b250a912df"/>
+			<Metadata name="InformationRegister.леНастройкиТранспортаОбменаДанными.Resource.КаталогОбмена" id="4eaa1cc9-60a7-413a-9982-047afc8cd24e"/>
+			<Metadata name="InformationRegister.леНастройкиТранспортаОбменаДанными.Resource.СтрокаПодключения" id="d52a9e86-9336-4192-85d6-b4696a3e4f6b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="29121641-cb7f-4337-8581-342e00c818fd" configVersion="03338f1ddd83f2e38164ec61def212ae29b29ba9"/>
+		<Metadata name="Subsystem.le_liteExchange" id="b454cbd6-4a81-4d52-8541-a657fb59ab3f" configVersion="6a10243585990d87d7261e31838356de896f618a"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

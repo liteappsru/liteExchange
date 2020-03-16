@@ -18,8 +18,8 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.леЛоггирование</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.леСерверПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">35da325e-5c91-4759-8383-e58e052f69ef</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">b00f01ca-df0a-4a82-9ada-1d962da5de3b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.леРаботаСJSON</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.ex</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обработкаtest</xr:Item>

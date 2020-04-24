@@ -41,14 +41,21 @@
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>ле</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>liteapps.ru</Vendor>
-			<Version>2.3.1.2</Version>
+			<Version>2.2.1.6</Version>
+			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
+			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
+			<CompatibilityMode>Version8_3_12</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -58,24 +65,22 @@
 			<CommonPicture>леВыгрузить</CommonPicture>
 			<CommonTemplate>леМакетliteExchange2</CommonTemplate>
 			<CommonModule>леРаботаСJSON</CommonModule>
+			<CommonModule>леСерверПовтИсп</CommonModule>
+			<CommonModule>леЛоггирование</CommonModule>
+			<CommonModule>леМногопоточность</CommonModule>
 			<CommonModule>леПодключаемыеОбработчики</CommonModule>
 			<CommonModule>леКоннекторHTTP</CommonModule>
+			<CommonModule>леСервер</CommonModule>
 			<HTTPService>ex</HTTPService>
 			<Catalog>леПодключаемыеОбработки</Catalog>
-			<Enum>леСтатусыОбработкиСообщений</Enum>
 			<DataProcessor>леLiteExchange2</DataProcessor>
 			<DataProcessor>Обработкаtest</DataProcessor>
+			<DataProcessor>Обработкаrib</DataProcessor>
 			<DataProcessor>леHTTPRequest</DataProcessor>
 			<DataProcessor>леGZipОбработка</DataProcessor>
 			<DataProcessor>леАнализаторДанных</DataProcessor>
-			<DataProcessor>леJSONКонвертер</DataProcessor>
+			<DataProcessor>леРаботаСJSON</DataProcessor>
 			<DataProcessor>ле1сКонвертер</DataProcessor>
-			<DataProcessor>леЛоггирование</DataProcessor>
-			<InformationRegister>леНастройкиТранспортаОбменаДанными</InformationRegister>
-			<InformationRegister>леОчередьОбработкиДанных</InformationRegister>
-			<InformationRegister>леОчередьИсходящихСообщений</InformationRegister>
-			<InformationRegister>леОчередьВходящихСообщений</InformationRegister>
-			<InformationRegister>леОчередьОжидания</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

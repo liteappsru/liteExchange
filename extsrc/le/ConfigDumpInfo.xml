@@ -64,6 +64,6 @@
 		</Metadata>
 		<Metadata name="HTTPService.ex.Module" id="ce3f8b2d-9c59-463a-b33c-62b33da1077a.0" configVersion="b5e5e0bdebc2870ff2836ba6a3459e2a40495449"/>
 		<Metadata name="Language.Русский" id="29121641-cb7f-4337-8581-342e00c818fd" configVersion="03338f1ddd83f2e38164ec61def212ae29b29ba9"/>
-		<Metadata name="Subsystem.le_liteExchange" id="b454cbd6-4a81-4d52-8541-a657fb59ab3f" configVersion="6a10243585990d87d7261e31838356de896f618a"/>
+		<Metadata name="Subsystem.le_liteExchange" id="b454cbd6-4a81-4d52-8541-a657fb59ab3f" configVersion="c04045b10331f9056455242095dc48d01666193d"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

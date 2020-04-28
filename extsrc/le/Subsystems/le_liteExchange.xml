@@ -23,7 +23,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.леРаботаСJSON</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.ex</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обработкаtest</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">95749feb-cd27-4746-806b-828c03b41b8f</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

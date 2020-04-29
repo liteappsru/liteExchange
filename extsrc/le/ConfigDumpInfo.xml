@@ -52,7 +52,7 @@
 		<Metadata name="DataProcessor.леРаботаСJSON" id="3f4efd0d-e731-404f-9b99-079751cd0fb8" configVersion="77bc49e262861f4d5cae1f5b299bef8a3345adc5"/>
 		<Metadata name="DataProcessor.леРаботаСJSON.Form.Форма" id="c5b4dac6-7eef-42b6-8cb0-61f8287555e9" configVersion="2eea51f986ccbb84d521d0bfe5c5394fb66e27a9"/>
 		<Metadata name="DataProcessor.леРаботаСJSON.Form.Форма.Form" id="c5b4dac6-7eef-42b6-8cb0-61f8287555e9.0" configVersion="6ce4eba3224cbc1c5b5dd4167addcb5dd12fed72"/>
-		<Metadata name="DataProcessor.леРаботаСJSON.ObjectModule" id="3f4efd0d-e731-404f-9b99-079751cd0fb8.0" configVersion="807cdfa30b045a3b557e59ac7c2d43b5d413795d"/>
+		<Metadata name="DataProcessor.леРаботаСJSON.ObjectModule" id="3f4efd0d-e731-404f-9b99-079751cd0fb8.0" configVersion="c88b92af4cf9bcb2428136f26e32835d854df1d7"/>
 		<Metadata name="HTTPService.ex" id="ce3f8b2d-9c59-463a-b33c-62b33da1077a" configVersion="aad1906802a523e1cc92e8c59f6b211ae5e8493c">
 			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.patch" id="3732679b-75d6-403f-a5d8-8796deabc207"/>
 			<Metadata name="HTTPService.ex.URLTemplate.Запрос.Method.post" id="42cdaac0-d22c-4882-81ee-01b66d17eaf8"/>

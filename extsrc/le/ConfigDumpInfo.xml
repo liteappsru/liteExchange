@@ -40,6 +40,7 @@
 		<Metadata name="DataProcessor.Обработкаtest.Form.Форма.Form" id="723b0bb8-8c8a-4ff4-b6be-4b007b57324f.0" configVersion="a9acf8e904053548e255d2198d474f8864759f7f"/>
 		<Metadata name="DataProcessor.Обработкаtest.ObjectModule" id="e44b94b2-3dde-4909-ac35-da3247325dfa.0" configVersion="0338f77061a88a2d9c0039208c6a3d78264c3929"/>
 		<Metadata name="DataProcessor.ле1сКонвертер" id="2db3c573-dd9b-4bae-8c0e-823e9289c805" configVersion="415fd2d53cf7b4e42764c1982da337d43b4cdaac"/>
+		<Metadata name="DataProcessor.ле1сКонвертер.ObjectModule" id="2db3c573-dd9b-4bae-8c0e-823e9289c805.0" configVersion="8439124851064da6cf4655c68d726ac22fd89bd5"/>
 		<Metadata name="DataProcessor.леGZipОбработка" id="fc263634-7ba6-419f-8c23-282c1e909026" configVersion="4e8ae42200e4deeed9acf9994fcb43c594e07c75"/>
 		<Metadata name="DataProcessor.леGZipОбработка.ObjectModule" id="fc263634-7ba6-419f-8c23-282c1e909026.0" configVersion="cb4d555d74fe0602015e72f2665ac10bbcef8df9"/>
 		<Metadata name="DataProcessor.леHTTPRequest" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d" configVersion="03de148c1be505b12c665ffd38cedff16596a802"/>

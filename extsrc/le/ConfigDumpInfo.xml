@@ -12,7 +12,7 @@
 		<Metadata name="CommonModule.леМногопоточность" id="ed3e1a44-9084-47c5-a6ff-ced4d56a06d4" configVersion="91c8679f5f229b64fa55fef93fd62f50d6a3148a"/>
 		<Metadata name="CommonModule.леМногопоточность.Module" id="ed3e1a44-9084-47c5-a6ff-ced4d56a06d4.0" configVersion="822bfc0f00b21878aa32e02df1898a5b74a0ad18"/>
 		<Metadata name="CommonModule.леПодключаемыеОбработчики" id="c6aadd71-c72d-4acc-86fe-92d69f28be1a" configVersion="8b765e00563532c58fc2c464ebee02708a625123"/>
-		<Metadata name="CommonModule.леПодключаемыеОбработчики.Module" id="c6aadd71-c72d-4acc-86fe-92d69f28be1a.0" configVersion="4d16f5f150de74627ccfdca94e81dfac774cd038"/>
+		<Metadata name="CommonModule.леПодключаемыеОбработчики.Module" id="c6aadd71-c72d-4acc-86fe-92d69f28be1a.0" configVersion="75a31817ed2148e1cf5b87993aacaec651c17617"/>
 		<Metadata name="CommonModule.леРаботаСJSON" id="a85b4f7c-d208-4515-a548-f6724d17bd31" configVersion="a9667fc9b97b1d0387a5630afe693219de54ebe2"/>
 		<Metadata name="CommonModule.леРаботаСJSON.Module" id="a85b4f7c-d208-4515-a548-f6724d17bd31.0" configVersion="2fab78f17c34cfc172ff8ec54b4c016f7a1161d8"/>
 		<Metadata name="CommonModule.леСервер" id="ba0238f3-36a7-4607-8db1-95041cd7175c" configVersion="4d5ccac56f6ca7d314b25b17e77ee3472168e2c6"/>

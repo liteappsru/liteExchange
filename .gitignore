@@ -15,4 +15,4 @@ bin/*.erf
 1Cv8JobScheduler/*
 1Cv8Temp/*
 
-ConfigDumpInfo.xml
+*ConfigDumpInfo.xml

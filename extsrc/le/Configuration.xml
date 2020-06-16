@@ -81,6 +81,7 @@
 			<DataProcessor>леАнализаторДанных</DataProcessor>
 			<DataProcessor>леРаботаСJSON</DataProcessor>
 			<DataProcessor>ле1сКонвертер</DataProcessor>
+			<DataProcessor>леHTTPRequestLite</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

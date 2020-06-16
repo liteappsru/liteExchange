@@ -26,7 +26,7 @@
 		<Metadata name="CommonPicture.леПиктограммаПодсистемы.Picture" id="444c5d07-8794-4a87-bd36-4f7902fce254.0" configVersion="867b77b27061035478e38fe7c2227455740601ad"/>
 		<Metadata name="CommonTemplate.леМакетliteExchange2" id="18b23e5a-e87b-4ef9-ad14-aec53612728d" configVersion="2e7fa4b86b4d2b78b4f96918f4eca21d55b0c7f6"/>
 		<Metadata name="CommonTemplate.леМакетliteExchange2.Template" id="18b23e5a-e87b-4ef9-ad14-aec53612728d.0" configVersion="37c85fa5f45b3fbabc7dcad04042d52f711e40e2"/>
-		<Metadata name="Configuration.liteExchange2" id="135b7f3c-dbc9-4a9e-a3f7-3c1120e2aaed" configVersion="5735751b2bfab852d938f83331d5b31d5399cdc3"/>
+		<Metadata name="Configuration.liteExchange2" id="135b7f3c-dbc9-4a9e-a3f7-3c1120e2aaed" configVersion="b75d478751862990399bf67b0c813ed10d100b81"/>
 		<Metadata name="Configuration.liteExchange2.ManagedApplicationModule" id="c1b23587-22a9-481e-81a1-70286fe78539.6" configVersion="498afaafde1eae936c69dff09824b2515b3fb3b6"/>
 		<Metadata name="Configuration.liteExchange2.SessionModule" id="c1b23587-22a9-481e-81a1-70286fe78539.7" configVersion="6d5e4c2aab7bfc9d5b5809d88414c7491ac0288d"/>
 		<Metadata name="DataProcessor.Обработкаrib" id="ab009549-e017-4be4-b2ec-c839e8b613d8" configVersion="a403346b4f4c16387b93f09047c5333b2a102459"/>
@@ -44,7 +44,9 @@
 		<Metadata name="DataProcessor.леGZipОбработка" id="fc263634-7ba6-419f-8c23-282c1e909026" configVersion="4e8ae42200e4deeed9acf9994fcb43c594e07c75"/>
 		<Metadata name="DataProcessor.леGZipОбработка.ObjectModule" id="fc263634-7ba6-419f-8c23-282c1e909026.0" configVersion="cb4d555d74fe0602015e72f2665ac10bbcef8df9"/>
 		<Metadata name="DataProcessor.леHTTPRequest" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d" configVersion="03de148c1be505b12c665ffd38cedff16596a802"/>
-		<Metadata name="DataProcessor.леHTTPRequest.ObjectModule" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d.0" configVersion="bab45ec9b2cc613ad5f82ce61866379e1248d2a3"/>
+		<Metadata name="DataProcessor.леHTTPRequest.ObjectModule" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d.0" configVersion="23faf42bcc0ff2e786f9c86cbc622fdbbe575163"/>
+		<Metadata name="DataProcessor.леHTTPRequestLite" id="bdcc82e6-da85-4f06-b502-504d712c58dc" configVersion="ae9536b29452549fbdb7864364abb793ec693907"/>
+		<Metadata name="DataProcessor.леHTTPRequestLite.ObjectModule" id="bdcc82e6-da85-4f06-b502-504d712c58dc.0" configVersion="bab45ec9b2cc613ad5f82ce61866379e1248d2a3"/>
 		<Metadata name="DataProcessor.леLiteExchange2" id="4dafd88c-ada5-464a-b182-debd24238fab" configVersion="96eb37c82b6c23bbc68006686fbae4cb02c76938"/>
 		<Metadata name="DataProcessor.леLiteExchange2.ManagerModule" id="4dafd88c-ada5-464a-b182-debd24238fab.2" configVersion="848cc06bd6bdc263374ec4beb89c948be047ba00"/>
 		<Metadata name="DataProcessor.леLiteExchange2.ObjectModule" id="4dafd88c-ada5-464a-b182-debd24238fab.0" configVersion="be2b6de60731a40d1a6b42f9a31531ac15de2f28"/>
@@ -65,6 +67,6 @@
 		</Metadata>
 		<Metadata name="HTTPService.ex.Module" id="ce3f8b2d-9c59-463a-b33c-62b33da1077a.0" configVersion="b5e5e0bdebc2870ff2836ba6a3459e2a40495449"/>
 		<Metadata name="Language.Русский" id="29121641-cb7f-4337-8581-342e00c818fd" configVersion="03338f1ddd83f2e38164ec61def212ae29b29ba9"/>
-		<Metadata name="Subsystem.le_liteExchange" id="b454cbd6-4a81-4d52-8541-a657fb59ab3f" configVersion="c04045b10331f9056455242095dc48d01666193d"/>
+		<Metadata name="Subsystem.le_liteExchange" id="b454cbd6-4a81-4d52-8541-a657fb59ab3f" configVersion="913533fbb8e610c9a1219076730d9c7ea016df0a"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

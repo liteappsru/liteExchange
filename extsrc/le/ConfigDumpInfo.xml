@@ -45,8 +45,10 @@
 		<Metadata name="DataProcessor.леGZipОбработка.ObjectModule" id="fc263634-7ba6-419f-8c23-282c1e909026.0" configVersion="cb4d555d74fe0602015e72f2665ac10bbcef8df9"/>
 		<Metadata name="DataProcessor.леHTTPRequest" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d" configVersion="03de148c1be505b12c665ffd38cedff16596a802"/>
 		<Metadata name="DataProcessor.леHTTPRequest.ObjectModule" id="52b6c907-7251-4f87-90f7-0cb6f17ee92d.0" configVersion="d2a9f886a1746eae8979640b8ddf5c63b86a9649"/>
-		<Metadata name="DataProcessor.леHTTPRequestLite" id="bdcc82e6-da85-4f06-b502-504d712c58dc" configVersion="ae9536b29452549fbdb7864364abb793ec693907"/>
-		<Metadata name="DataProcessor.леHTTPRequestLite.ObjectModule" id="bdcc82e6-da85-4f06-b502-504d712c58dc.0" configVersion="bab45ec9b2cc613ad5f82ce61866379e1248d2a3"/>
+		<Metadata name="DataProcessor.леHTTPRequestLite" id="bdcc82e6-da85-4f06-b502-504d712c58dc" configVersion="16fd4c09271019b0805e95c4c15795ed0d1b9c4b"/>
+		<Metadata name="DataProcessor.леHTTPRequestLite.Form.Форма" id="7037712c-9cbc-4825-9032-659beed5cca7" configVersion="a9c9e347b72d83e7e14313cec5cd83a4ae8f8c0d"/>
+		<Metadata name="DataProcessor.леHTTPRequestLite.Form.Форма.Form" id="7037712c-9cbc-4825-9032-659beed5cca7.0" configVersion="d80687532b22894b81e28ce00302a6317fa8e525"/>
+		<Metadata name="DataProcessor.леHTTPRequestLite.ObjectModule" id="bdcc82e6-da85-4f06-b502-504d712c58dc.0" configVersion="a7f6240a46afeed3ccea4f823d2b0000e5883104"/>
 		<Metadata name="DataProcessor.леLiteExchange2" id="4dafd88c-ada5-464a-b182-debd24238fab" configVersion="96eb37c82b6c23bbc68006686fbae4cb02c76938"/>
 		<Metadata name="DataProcessor.леLiteExchange2.ManagerModule" id="4dafd88c-ada5-464a-b182-debd24238fab.2" configVersion="848cc06bd6bdc263374ec4beb89c948be047ba00"/>
 		<Metadata name="DataProcessor.леLiteExchange2.ObjectModule" id="4dafd88c-ada5-464a-b182-debd24238fab.0" configVersion="be2b6de60731a40d1a6b42f9a31531ac15de2f28"/>
